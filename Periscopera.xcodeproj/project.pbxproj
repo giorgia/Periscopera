@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		097C78F4661EAB758A14FEEB /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D139E4EC52E29E1EF97B13D /* Pods.framework */; };
+		C722E2771C7121EA002F7B49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C722E2761C7121EA002F7B49 /* AppDelegate.swift */; };
+		C722E2791C7121EA002F7B49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C722E2781C7121EA002F7B49 /* ViewController.swift */; };
+		C722E27C1C7121EA002F7B49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C722E27A1C7121EA002F7B49 /* Main.storyboard */; };
+		C722E27E1C7121EA002F7B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C722E27D1C7121EA002F7B49 /* Assets.xcassets */; };
+		C722E2811C7121EA002F7B49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C722E27F1C7121EA002F7B49 /* LaunchScreen.storyboard */; };
+		C722E28C1C7121EB002F7B49 /* PeriscoperaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C722E28B1C7121EB002F7B49 /* PeriscoperaTests.swift */; };
+		C722E2971C7121EB002F7B49 /* PeriscoperaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C722E2961C7121EB002F7B49 /* PeriscoperaUITests.swift */; };
+		C722E2A71C712B3A002F7B49 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C722E2A61C712B3A002F7B49 /* Model.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C722E2881C7121EB002F7B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C722E26B1C7121EA002F7B49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C722E2721C7121EA002F7B49;
+			remoteInfo = Periscopera;
+		};
+		C722E2931C7121EB002F7B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C722E26B1C7121EA002F7B49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C722E2721C7121EA002F7B49;
+			remoteInfo = Periscopera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D139E4EC52E29E1EF97B13D /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		728BE33693F18E9CF9F3ED31 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C722E2731C7121EA002F7B49 /* Periscopera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Periscopera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C722E2761C7121EA002F7B49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C722E2781C7121EA002F7B49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C722E27B1C7121EA002F7B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C722E27D1C7121EA002F7B49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C722E2801C7121EA002F7B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C722E2821C7121EA002F7B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C722E2871C7121EB002F7B49 /* PeriscoperaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeriscoperaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C722E28B1C7121EB002F7B49 /* PeriscoperaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriscoperaTests.swift; sourceTree = "<group>"; };
+		C722E28D1C7121EB002F7B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C722E2921C7121EB002F7B49 /* PeriscoperaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeriscoperaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C722E2961C7121EB002F7B49 /* PeriscoperaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriscoperaUITests.swift; sourceTree = "<group>"; };
+		C722E2981C7121EB002F7B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C722E2A61C712B3A002F7B49 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		EB0B6FFBF8072DB2FB8DB9B3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C722E2701C7121EA002F7B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097C78F4661EAB758A14FEEB /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C722E2841C7121EB002F7B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C722E28F1C7121EB002F7B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E121EEF2F61D9D93A7CB498 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB0B6FFBF8072DB2FB8DB9B3 /* Pods.debug.xcconfig */,
+				728BE33693F18E9CF9F3ED31 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C722E26A1C7121EA002F7B49 = {
+			isa = PBXGroup;
+			children = (
+				C722E2751C7121EA002F7B49 /* Periscopera */,
+				C722E28A1C7121EB002F7B49 /* PeriscoperaTests */,
+				C722E2951C7121EB002F7B49 /* PeriscoperaUITests */,
+				C722E2741C7121EA002F7B49 /* Products */,
+				3E121EEF2F61D9D93A7CB498 /* Pods */,
+				EB5DAB7F01B6E72A76A60BEE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C722E2741C7121EA002F7B49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C722E2731C7121EA002F7B49 /* Periscopera.app */,
+				C722E2871C7121EB002F7B49 /* PeriscoperaTests.xctest */,
+				C722E2921C7121EB002F7B49 /* PeriscoperaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C722E2751C7121EA002F7B49 /* Periscopera */ = {
+			isa = PBXGroup;
+			children = (
+				C722E2761C7121EA002F7B49 /* AppDelegate.swift */,
+				C722E2781C7121EA002F7B49 /* ViewController.swift */,
+				C722E2A61C712B3A002F7B49 /* Model.swift */,
+				C722E27A1C7121EA002F7B49 /* Main.storyboard */,
+				C722E27D1C7121EA002F7B49 /* Assets.xcassets */,
+				C722E27F1C7121EA002F7B49 /* LaunchScreen.storyboard */,
+				C722E2821C7121EA002F7B49 /* Info.plist */,
+			);
+			path = Periscopera;
+			sourceTree = "<group>";
+		};
+		C722E28A1C7121EB002F7B49 /* PeriscoperaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C722E28B1C7121EB002F7B49 /* PeriscoperaTests.swift */,
+				C722E28D1C7121EB002F7B49 /* Info.plist */,
+			);
+			path = PeriscoperaTests;
+			sourceTree = "<group>";
+		};
+		C722E2951C7121EB002F7B49 /* PeriscoperaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C722E2961C7121EB002F7B49 /* PeriscoperaUITests.swift */,
+				C722E2981C7121EB002F7B49 /* Info.plist */,
+			);
+			path = PeriscoperaUITests;
+			sourceTree = "<group>";
+		};
+		EB5DAB7F01B6E72A76A60BEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D139E4EC52E29E1EF97B13D /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C722E2721C7121EA002F7B49 /* Periscopera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C722E29B1C7121EB002F7B49 /* Build configuration list for PBXNativeTarget "Periscopera" */;
+			buildPhases = (
+				3012A263C3B3DBF70B216622 /* Check Pods Manifest.lock */,
+				C722E26F1C7121EA002F7B49 /* Sources */,
+				C722E2701C7121EA002F7B49 /* Frameworks */,
+				C722E2711C7121EA002F7B49 /* Resources */,
+				9A0EF13AA7F82369152393EF /* Embed Pods Frameworks */,
+				AC05CFEA56513C948BA81304 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Periscopera;
+			productName = Periscopera;
+			productReference = C722E2731C7121EA002F7B49 /* Periscopera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C722E2861C7121EB002F7B49 /* PeriscoperaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C722E29E1C7121EB002F7B49 /* Build configuration list for PBXNativeTarget "PeriscoperaTests" */;
+			buildPhases = (
+				C722E2831C7121EB002F7B49 /* Sources */,
+				C722E2841C7121EB002F7B49 /* Frameworks */,
+				C722E2851C7121EB002F7B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C722E2891C7121EB002F7B49 /* PBXTargetDependency */,
+			);
+			name = PeriscoperaTests;
+			productName = PeriscoperaTests;
+			productReference = C722E2871C7121EB002F7B49 /* PeriscoperaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C722E2911C7121EB002F7B49 /* PeriscoperaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C722E2A11C7121EB002F7B49 /* Build configuration list for PBXNativeTarget "PeriscoperaUITests" */;
+			buildPhases = (
+				C722E28E1C7121EB002F7B49 /* Sources */,
+				C722E28F1C7121EB002F7B49 /* Frameworks */,
+				C722E2901C7121EB002F7B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C722E2941C7121EB002F7B49 /* PBXTargetDependency */,
+			);
+			name = PeriscoperaUITests;
+			productName = PeriscoperaUITests;
+			productReference = C722E2921C7121EB002F7B49 /* PeriscoperaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C722E26B1C7121EA002F7B49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Giorgia Marenda";
+				TargetAttributes = {
+					C722E2721C7121EA002F7B49 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = WN6G7U99K4;
+					};
+					C722E2861C7121EB002F7B49 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C722E2721C7121EA002F7B49;
+					};
+					C722E2911C7121EB002F7B49 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C722E2721C7121EA002F7B49;
+					};
+				};
+			};
+			buildConfigurationList = C722E26E1C7121EA002F7B49 /* Build configuration list for PBXProject "Periscopera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C722E26A1C7121EA002F7B49;
+			productRefGroup = C722E2741C7121EA002F7B49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C722E2721C7121EA002F7B49 /* Periscopera */,
+				C722E2861C7121EB002F7B49 /* PeriscoperaTests */,
+				C722E2911C7121EB002F7B49 /* PeriscoperaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C722E2711C7121EA002F7B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C722E2811C7121EA002F7B49 /* LaunchScreen.storyboard in Resources */,
+				C722E27E1C7121EA002F7B49 /* Assets.xcassets in Resources */,
+				C722E27C1C7121EA002F7B49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C722E2851C7121EB002F7B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C722E2901C7121EB002F7B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3012A263C3B3DBF70B216622 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A0EF13AA7F82369152393EF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC05CFEA56513C948BA81304 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C722E26F1C7121EA002F7B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C722E2A71C712B3A002F7B49 /* Model.swift in Sources */,
+				C722E2791C7121EA002F7B49 /* ViewController.swift in Sources */,
+				C722E2771C7121EA002F7B49 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C722E2831C7121EB002F7B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C722E28C1C7121EB002F7B49 /* PeriscoperaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C722E28E1C7121EB002F7B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C722E2971C7121EB002F7B49 /* PeriscoperaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C722E2891C7121EB002F7B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C722E2721C7121EA002F7B49 /* Periscopera */;
+			targetProxy = C722E2881C7121EB002F7B49 /* PBXContainerItemProxy */;
+		};
+		C722E2941C7121EB002F7B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C722E2721C7121EA002F7B49 /* Periscopera */;
+			targetProxy = C722E2931C7121EB002F7B49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C722E27A1C7121EA002F7B49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C722E27B1C7121EA002F7B49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C722E27F1C7121EA002F7B49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C722E2801C7121EA002F7B49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C722E2991C7121EB002F7B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C722E29A1C7121EB002F7B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C722E29C1C7121EB002F7B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB0B6FFBF8072DB2FB8DB9B3 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Periscopera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gii.Periscopera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C722E29D1C7121EB002F7B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 728BE33693F18E9CF9F3ED31 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Periscopera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gii.Periscopera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C722E29F1C7121EB002F7B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PeriscoperaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gii.PeriscoperaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Periscopera.app/Periscopera";
+			};
+			name = Debug;
+		};
+		C722E2A01C7121EB002F7B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PeriscoperaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gii.PeriscoperaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Periscopera.app/Periscopera";
+			};
+			name = Release;
+		};
+		C722E2A21C7121EB002F7B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PeriscoperaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gii.PeriscoperaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Periscopera;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C722E2A31C7121EB002F7B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PeriscoperaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gii.PeriscoperaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Periscopera;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C722E26E1C7121EA002F7B49 /* Build configuration list for PBXProject "Periscopera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C722E2991C7121EB002F7B49 /* Debug */,
+				C722E29A1C7121EB002F7B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C722E29B1C7121EB002F7B49 /* Build configuration list for PBXNativeTarget "Periscopera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C722E29C1C7121EB002F7B49 /* Debug */,
+				C722E29D1C7121EB002F7B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C722E29E1C7121EB002F7B49 /* Build configuration list for PBXNativeTarget "PeriscoperaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C722E29F1C7121EB002F7B49 /* Debug */,
+				C722E2A01C7121EB002F7B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C722E2A11C7121EB002F7B49 /* Build configuration list for PBXNativeTarget "PeriscoperaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C722E2A21C7121EB002F7B49 /* Debug */,
+				C722E2A31C7121EB002F7B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C722E26B1C7121EA002F7B49 /* Project object */;
+}
