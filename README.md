@@ -1,4 +1,4 @@
-# Periscopera
+# Periscopera [![codebeat badge](https://codebeat.co/badges/5fead478-e875-41f7-844d-ce6dd953aee8)](https://codebeat.co/projects/github-com-giorgia-periscopera)
 -24° C Hackathon day  BEDSTUY // BROOKLYN
 
-<a href="https://codebeat.co/projects/github-com-gmarenda-periscopera"><img alt="codebeat badge" src="https://codebeat.co/badges/899390dd-4a81-42c3-8a9a-809f9e20312b" /></a>
+
